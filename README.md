@@ -5,6 +5,16 @@ The application allows users to register chemical products, maintain inventory r
 
 ---
 
+## 🌐 Live Deployment
+
+- **Frontend (Live Application):**  
+  https://chemstock-frontend.onrender.com
+
+- **Backend API:**  
+  https://chemstock.onrender.com/api
+
+---
+
 ## Tech Stack
 
 ### Frontend
