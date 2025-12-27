@@ -59,7 +59,6 @@ export const updateProduct = async (req, res, next) => {
   try {
     const { id } = req.params;
 
-    // Validate body
     const data = createProductSchema.parse(req.body);
 
     const updated = await prisma.product.update({
@@ -73,6 +72,6 @@ export const updateProduct = async (req, res, next) => {
 
     res.json(updated);
   } catch (err) {
-    next(err); // VERY IMPORTANT
+    next(err); 
   }
 };
