@@ -220,4 +220,3 @@ This ensures only valid unit values are stored at the database level.
 ## Author
 
 Ayush Gade  
-Simple Inventory Management System – Internship Assignment
